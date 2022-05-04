@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MooD Contacto</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <nav class="navcontainer">
+        <ul class="nav">
+            <li><a href="" id="menu-icon"><span class="material-icons-outlined">
+                reorder</span></a>
+            </li>
+        </ul>
+        <ul id="smenu" class="submenu" >
+            <li><a href="./index.html" class="menu_link">Contacto</a></li>
+            <li><a href="/Prueba1/coffemenupage/index.html" class="menu_link">Menú Cafetería</a></li>
+            <li><a href="" class="menu_link">Menú Comida</a></li>
+            <li><a href="" class="menu_link">Menú Bebidas</a></li>
+        </ul>
+    </nav>
+    <section>
+        <picture class="logo-container">
+            <img src="/Prueba1/images/logobiig.png" alt="mood-logo">
+        </picture>
+        <div class="form-container">
+            <form id="contact-form" action="">
+                <input type="text" name="from_name" placeholder="Ingrese su nombre..." required>
+                <input type="email" name="from_email" placeholder="Ingrese su mail...">
+                <textarea class="text-input" name="message" placeholder="..." required cols="30" rows="10"></textarea>
+                <input class="button-input" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
