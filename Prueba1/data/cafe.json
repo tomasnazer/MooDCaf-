@@ -1,0 +1,67 @@
+{
+    "cafe": [
+        {
+            "nombre": "Café Doble",
+            "precio": "250",
+            "descripcion": "Doble medida de espresso",
+            "img": "/Prueba1/images/Café con Leche.png",
+            "stock": "true"
+        },
+        {
+            "nombre": "Café Americano",
+            "precio": "220",
+            "descripcion": "Base de espresso y agua",
+            "img": "/Prueba1/images/Café con Leche.png",
+            "stock": "true"
+        },
+        {
+            "nombre":"Cafe espresso",
+            "precio": "200",
+            "descripcion": "Medida de cafe de 60ml",
+            "img": "/Prueba1/images/Café con Leche.png",
+            "stock": "false"
+        }
+    ],
+    "bebidas": [
+        {
+            "nombre": "Gin Tonic",
+            "precio": "400",
+            "descripcion": "Medida de gin Heraclito y tonica",
+            "img": "/Prueba1/images/Café con Leche.png"
+        },
+        {
+            "nombre": "Negroni",
+            "precio": "400",
+            "descripcion": "Gin, Campari, Vermouth Rosso y rodaja de naranja",
+            "img": "/Prueba1/images/Café con Leche.png"
+
+        },
+        {
+            "nombre":"Dry Martini",
+            "precio": "400",
+            "descripcion": "Gin, vermouth seco, aceituna",
+            "img": "/Prueba1/images/Café con Leche.png"
+        }
+    ],
+    "comidas": [
+        {
+            "nombre": "Pizza Muzzarela",
+            "precio": "900",
+            "descripcion": "",
+            "img": "/Prueba1/images/Café con Leche.png"
+        },
+        {
+            "nombre": "Papas MooD",
+            "precio": "600",
+            "descripcion": "Papas con cheddar y bacon",
+            "img": "/Prueba1/images/Café con Leche.png"
+
+        },
+        {
+            "nombre":"RIssoto de LOomo",
+            "precio": "1200",
+            "descripcion": "arroz lomo y algo mas",
+            "img": "/Prueba1/images/Café con Leche.png"
+        }
+    ]
+}

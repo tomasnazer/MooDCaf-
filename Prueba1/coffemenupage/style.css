@@ -9,6 +9,10 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* .navcontainer {
     display: flex;
     justify-content: space-between;
