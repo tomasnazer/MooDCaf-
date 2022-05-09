@@ -12,7 +12,7 @@ btnMenu.addEventListener("click", function(e){
 
 
 data.cafe.forEach(cafe => {
-    if(cafe.stock === "true"){
+    if(cafe.stock === "true"){ if(cafe.img != "") {
     document.getElementById('cafeteria').insertAdjacentHTML('beforeend',
     `
      
@@ -22,7 +22,10 @@ data.cafe.forEach(cafe => {
     <span class="product">${cafe.nombre} $${cafe.precio}</span>
     <span class="description">${cafe.descripcion}</span>
     `
-    )} else {
+    )} else  {document.getElementById('cafeteria').insertAdjacentHTML('beforeend',
+        `<span class="product">${cafe.nombre} $${cafe.precio}</span>
+        <span class="description">${cafe.descripcion}</span>`
+)}} else { if(cafe.img !=""){
         document.getElementById('cafeteria').insertAdjacentHTML('beforeend',
         `
         <picture>
@@ -30,7 +33,12 @@ data.cafe.forEach(cafe => {
         </picture>
         <span class="product">${cafe.nombre} $${cafe.precio}</span>
         <span class="description">SIN STOCK!</span>`
-        )}
+        )} else{
+            document.getElementById('cafeteria').insertAdjacentHTML('beforeend',
+            `<span class="product">${cafe.nombre} $${cafe.precio}</span>
+            <span class="description">${cafe.descripcion}</span>`
+)}}
+        
 });
 
 //document.getElementById('cafeteria').appendChild('<ol><li>html data</li></ol>');

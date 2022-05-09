@@ -11,14 +11,14 @@
             "nombre": "Café Americano",
             "precio": "220",
             "descripcion": "Base de espresso y agua",
-            "img": "/Prueba1/images/Café con Leche.png",
+            "img": "",
             "stock": "true"
         },
         {
             "nombre":"Cafe espresso",
             "precio": "200",
             "descripcion": "Medida de cafe de 60ml",
-            "img": "/Prueba1/images/Café con Leche.png",
+            "img": "",
             "stock": "false"
         },
         {
