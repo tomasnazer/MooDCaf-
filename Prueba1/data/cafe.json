@@ -20,6 +20,27 @@
             "descripcion": "Medida de cafe de 60ml",
             "img": "/Prueba1/images/Café con Leche.png",
             "stock": "false"
+        },
+        {
+            "nombre":"Macciato",
+            "precio": "",
+            "descripcion": "Café con un poco de espuma",
+            "img": "/Prueba1/images/Café con Leche.png",
+            "stock": "true"
+        },
+        {
+            "nombre":"Latte",
+            "precio": "250",
+            "descripcion": "Base de espresso, con leche y espuma de leche",
+            "img": "/Prueba1/images/latte1.jpg",
+            "stock": "true"
+        },
+        {
+            "nombre":"Caramel Latte",
+            "precio": "300",
+            "descripcion": "Decorado sobre un colchón de salsa de caramelo",
+            "img": "/Prueba1/images/latte1.jpg",
+            "stock": "true"
         }
     ],
     "bebidas": [

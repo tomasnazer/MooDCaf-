@@ -15,6 +15,7 @@ data.cafe.forEach(cafe => {
     if(cafe.stock === "true"){
     document.getElementById('cafeteria').insertAdjacentHTML('beforeend',
     `
+     
     <picture>
         <img class="img-box" src="${cafe.img}" alt="coffe-pic">
     </picture>
