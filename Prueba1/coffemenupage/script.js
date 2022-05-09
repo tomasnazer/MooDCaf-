@@ -32,12 +32,12 @@ data.cafe.forEach(cafe => {
             <img class="img-box" src="${cafe.img}" alt="coffe-pic">
         </picture>
         <span class="product">${cafe.nombre} $${cafe.precio}</span>
-        <span class="description">SIN STOCK!</span>`
-        )} else{
+        `
+        )} else{ if(cafe.stock === "false"){
             document.getElementById('cafeteria').insertAdjacentHTML('beforeend',
             `<span class="product">${cafe.nombre} $${cafe.precio}</span>
-            <span class="description">${cafe.descripcion}</span>`
-)}}
+            <span class="description">SIN STOCK!</span>`
+)}}}
         
 });
 

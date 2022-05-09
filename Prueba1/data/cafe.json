@@ -12,7 +12,7 @@
             "precio": "220",
             "descripcion": "Base de espresso y agua",
             "img": "",
-            "stock": "true"
+            "stock": "false"
         },
         {
             "nombre":"Cafe espresso",
