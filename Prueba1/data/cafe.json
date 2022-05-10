@@ -25,24 +25,50 @@
             "nombre":"Macciato",
             "precio": "",
             "descripcion": "Café con un poco de espuma",
-            "img": "/Prueba1/images/Café con Leche.png",
+            "img": "",
             "stock": "true"
-        },
+        }
+        
+    ],
+
+    "Capuccinos": [
         {
-            "nombre":"Latte",
-            "precio": "250",
-            "descripcion": "Base de espresso, con leche y espuma de leche",
-            "img": "/Prueba1/images/latte1.jpg",
-            "stock": "true"
-        },
-        {
-            "nombre":"Caramel Latte",
+            "nombre": "Capuccino Clásico",
             "precio": "300",
-            "descripcion": "Decorado sobre un colchón de salsa de caramelo",
+            "descripcion": "Doble medida de espresso",
             "img": "/Prueba1/images/latte1.jpg",
+            "stock": "true"
+        },
+        {
+            "nombre": "Capuccino Italiano",
+            "precio": "300",
+            "descripcion": "Doble medida de espresso",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "nombre": "Capuccino de Dulce de leche",
+            "precio": "300",
+            "descripcion": "Doble medida de espresso",
+            "img": "",
+            "stock": "false"
+        },
+        {
+            "nombre": "Capuccino de leche condensada",
+            "precio": "300",
+            "descripcion": "Doble medida de espresso",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "nombre": "Nutelatte",
+            "precio": "350",
+            "descripcion": "Café con leche con porcion de nutella",
+            "img": "",
             "stock": "true"
         }
     ],
+
     "bebidas": [
         {
             "nombre": "Gin Tonic",
