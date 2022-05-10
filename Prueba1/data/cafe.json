@@ -69,6 +69,44 @@
         }
     ],
 
+    "Combos": [
+        {
+            "nombre": "MooD I",
+            "precio": "300",
+            "descripcion": "Café con leche + 2 medialunas",
+            "img": "../images/moodI.jpg",
+            "stock": "true"
+        },
+        {
+            "nombre": "MooD II",
+            "precio": "300",
+            "descripcion": "Café con leche + 2 tostadas con untables",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "nombre": "Mood III",
+            "precio": "300",
+            "descripcion": "Café con leche + Tostado de Jamon y Queso",
+            "img": "../images/moodiii.jpg",
+            "stock": "false"
+        },
+        {
+            "nombre": "MooD IV",
+            "precio": "300",
+            "descripcion": "Café con leche + Porción de Chipá",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "nombre": "Desayuno Americano",
+            "precio": "350",
+            "descripcion": "Café con leche + revuelto de huevo y bacon",
+            "img": "",
+            "stock": "true"
+        }
+    ],
+
     "bebidas": [
         {
             "nombre": "Gin Tonic",

@@ -72,3 +72,33 @@ data.Capuccinos.forEach(Capuccinos => {
 )}}}
         
 });
+
+data.Combos.forEach(Combos => {
+    if(Combos.stock === "true"){ if(Combos.img != "") {
+    document.getElementById('Combos').insertAdjacentHTML('beforeend',
+    `
+     
+    <picture>
+        <img class="img-box" src="${Combos.img}" alt="Combos-pic">
+    </picture>
+    <span class="product">${Combos.nombre} $${Combos.precio}</span>
+    <span class="description">${Combos.descripcion}</span>
+    `
+    )} else  {document.getElementById('Combos').insertAdjacentHTML('beforeend',
+        `<span class="product">${Combos.nombre} $${Combos.precio}</span>
+        <span class="description">${Combos.descripcion}</span>`
+)}} else { if(Combos.img !=""){
+        document.getElementById('Combos').insertAdjacentHTML('beforeend',
+        `
+        <picture>
+            <img class="img-box" src="${Combos.img}" alt="Combos-pic">
+        </picture>
+        <span class="product">${Combos.nombre} $${Combos.precio}</span>
+        `
+        )} else{ if(Combos.stock === "false"){
+            document.getElementById('Combos').insertAdjacentHTML('beforeend',
+            `<span class="product">${Combos.nombre} $${Combos.precio}</span>
+            <span class="description">SIN STOCK!</span>`
+)}}}
+        
+});
