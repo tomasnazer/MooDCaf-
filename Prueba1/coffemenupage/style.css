@@ -13,10 +13,6 @@ body{
     overflow-x: hidden;
 }
 
-/* .navcontainer {
-    display: flex;
-    justify-content: space-between;
-} */
 .nav {
     background-color: rgb(155, 117, 60);
     width: 100%;
