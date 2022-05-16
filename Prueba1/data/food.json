@@ -1,0 +1,26 @@
+{
+"Entradas": [
+    {
+        "nombre": "Papas",
+        "precio": "500",
+        "descripcion": "",
+        "img": "",
+        "stock": "true"
+    },
+    {
+        "nombre": "Papas Cheddar y bacon",
+        "precio": "700",
+        "descripcion": "Papas con cheddar y bacon",
+        "img": "",
+        "stock": "false"
+
+    },
+    {
+        "nombre":"Bastones de muzarella",
+        "precio": "700",
+        "descripcion": "",
+        "img": "",
+        "stock": "true"
+    }
+]
+}

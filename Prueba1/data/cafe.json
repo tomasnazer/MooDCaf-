@@ -165,26 +165,6 @@
             "descripcion": "Gin, vermouth seco, aceituna",
             "img": "/Prueba1/images/Café con Leche.png"
         }
-    ],
-    "comidas": [
-        {
-            "nombre": "Pizza Muzzarela",
-            "precio": "900",
-            "descripcion": "",
-            "img": "/Prueba1/images/Café con Leche.png"
-        },
-        {
-            "nombre": "Papas MooD",
-            "precio": "600",
-            "descripcion": "Papas con cheddar y bacon",
-            "img": "/Prueba1/images/Café con Leche.png"
-
-        },
-        {
-            "nombre":"RIssoto de LOomo",
-            "precio": "1200",
-            "descripcion": "arroz lomo y algo mas",
-            "img": "/Prueba1/images/Café con Leche.png"
-        }
     ]
+    
 }
