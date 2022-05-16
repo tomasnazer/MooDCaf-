@@ -1,13 +1,15 @@
 {
-"Entradas": [
+"product": [
     {
+        "Titulo":"ENTRADAS",
         "nombre": "Papas",
         "precio": "500",
         "descripcion": "",
-        "img": "",
+        "img": "/Prueba1/images/papas4.jpg",
         "stock": "true"
     },
     {
+        "Titulo":"",
         "nombre": "Papas Cheddar y bacon",
         "precio": "700",
         "descripcion": "Papas con cheddar y bacon",
@@ -16,9 +18,58 @@
 
     },
     {
+        "Titulo":"",
         "nombre":"Bastones de muzarella",
         "precio": "700",
         "descripcion": "",
+        "img": "",
+        "stock": "true"
+    },
+    {
+        "Titulo":"PIZZAS",
+        "nombre":"Pizza de Mozzarella",
+        "precio": "900",
+        "descripcion": "Queso mozzarella, salsa de tomate y lluvia de orégano",
+        "img": "/Prueba1/images/ruculapizza.jpg",
+        "stock": "true"
+    },
+    {
+        "Titulo":"",
+        "nombre":"Pizza Especial",
+        "precio": "1100",
+        "descripcion": "Queso mozzarella, salsa de tomate, jamon cocido, morrones en conserva y lluvia de orégano",
+        "img": "",
+        "stock": "true"
+    },
+    {
+        "Titulo":"",
+        "nombre":"Pizza Napolitana",
+        "precio": "1100",
+        "descripcion": "Queso mozzarella, salsa de tomate, rodajas de tomate natural, ajo picado y lluvia de especias",
+        "img": "",
+        "stock": "true"
+    },
+    {
+        "Titulo":"",
+        "nombre":"Pizza Calabresa",
+        "precio": "1100",
+        "descripcion": "Queso mozzarella, salsa de tomate y calabresa",
+        "img": "",
+        "stock": "false"
+    },
+    {
+        "Titulo":"",
+        "nombre":"Pizza 4 quesos",
+        "precio": "1100",
+        "descripcion": "Queso mozzarella, roquefort, gruyere, parmesano y salsa de tomate",
+        "img": "",
+        "stock": "true"
+    },
+    {
+        "Titulo":"",
+        "nombre":"Pizza Margarita",
+        "precio": "1100",
+        "descripcion": "Queso mozzarella, tomate cherry, lluvia de albahaca y salsa de tomate",
         "img": "",
         "stock": "true"
     }

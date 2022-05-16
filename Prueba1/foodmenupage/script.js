@@ -9,33 +9,41 @@ btnMenu.addEventListener("click", function(e){
     menu.classList.toggle('show')
 });
 
-//Entradas
 
-data.Entradas.forEach(Entradas => {
-    if(Entradas.stock === "true"){ if(Entradas.img != "") {
-    document.getElementById('Entradas').insertAdjacentHTML('beforeend',
+data.product.forEach(product => {
+
+    //Asking for the tittle of the section
+
+    if(product.Titulo != ""){
+        document.getElementById('product').insertAdjacentHTML('beforeend',
+        `<h1>${product.Titulo}</h1)`)
+    }
+
+    //Showing the options of the menu
+    
+    if(product.stock === "true"){ if(product.img != "") {
+    document.getElementById('product').insertAdjacentHTML('beforeend',
     `
-     
     <picture>
-        <img class="img-box" src="${Entradas.img}" alt="Entradas-pic">
+        <img class="img-box" src="${product.img}" alt="product-pic">
     </picture>
-    <span class="product">${Entradas.nombre} $${Entradas.precio}</span>
-    <span class="description">${Entradas.descripcion}</span>
+    <span class="product">${product.nombre} $${product.precio}</span>
+    <span class="description">${product.descripcion}</span>
     `
-    )} else  {document.getElementById('Entradas').insertAdjacentHTML('beforeend',
-        `<span class="product">${Entradas.nombre} $${Entradas.precio}</span>
-        <span class="description">${Entradas.descripcion}</span>`
-)}} else { if(Entradas.img !=""){
-        document.getElementById('Entradas').insertAdjacentHTML('beforeend',
+    )} else  {document.getElementById('product').insertAdjacentHTML('beforeend',
+        `<span class="product">${product.nombre} $${product.precio}</span>
+        <span class="description">${product.descripcion}</span>`
+)}} else { if(product.img !=""){
+        document.getElementById('product').insertAdjacentHTML('beforeend',
         `
         <picture>
-            <img class="img-box" src="${Entradas.img}" alt="Entradas-pic">
+            <img class="img-box" src="${product.img}" alt="product-pic">
         </picture>
-        <span class="product">${Entradas.nombre} $${Entradas.precio}</span>
+        <span class="product">${product.nombre} $${product.precio}</span>
         `
-        )} else{ if(Entradas.stock === "false"){
-            document.getElementById('Entradas').insertAdjacentHTML('beforeend',
-            `<span class="product">${Entradas.nombre} $${Entradas.precio}</span>
+        )} else{ if(product.stock === "false"){
+            document.getElementById('product').insertAdjacentHTML('beforeend',
+            `<span class="product">${product.nombre} $${product.precio}</span>
             <span class="description">SIN STOCK!</span>`
 )}}}
         
