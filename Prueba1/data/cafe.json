@@ -107,6 +107,44 @@
         }
     ],
 
+    "Frios":[
+        {
+            "nombre": "Ice Lattes",
+            "precio": "350",
+            "descripcion": "Bebida fria con hielo, base de espresso, leche y caramelo",
+            "img": "/Prueba1/images/icecoffe.jpg",
+            "stock": "true"
+        },
+        {
+            "nombre": "Moccacino Frío",
+            "precio": "350",
+            "descripcion": "Espresso mezclado salsa de chocolate, cacao en polvo y espuma de leche",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "nombre": "Afogatto",
+            "precio": "500",
+            "descripcion": "Bebida dulce con base de espresso sobre 2 bochas de crema americana",
+            "img": "",
+            "stock": "false"
+        },
+        {
+            "nombre": "Ice Americano",
+            "precio": "350",
+            "descripcion": "Base de hielo y espresso sobre un colchón de agua filtrada",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "nombre": "Chocolatada",
+            "precio": "300",
+            "descripcion": "",
+            "img": "",
+            "stock": "true"
+        }
+    ],
+
     "bebidas": [
         {
             "nombre": "Gin Tonic",

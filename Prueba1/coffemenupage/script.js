@@ -9,6 +9,7 @@ btnMenu.addEventListener("click", function(e){
     menu.classList.toggle('show')
 });
 
+//Coffe Section
 
 data.cafe.forEach(cafe => {
     if(cafe.stock === "true"){ if(cafe.img != "") {
@@ -40,8 +41,7 @@ data.cafe.forEach(cafe => {
         
 });
 
-//document.getElementById('cafeteria').appendChild('<ol><li>html data</li></ol>');
-
+//Capuccinos and Lattes section
 
 data.Capuccinos.forEach(Capuccinos => {
     if(Capuccinos.stock === "true"){ if(Capuccinos.img != "") {
@@ -73,6 +73,8 @@ data.Capuccinos.forEach(Capuccinos => {
         
 });
 
+//Combos section
+
 data.Combos.forEach(Combos => {
     if(Combos.stock === "true"){ if(Combos.img != "") {
     document.getElementById('Combos').insertAdjacentHTML('beforeend',
@@ -98,6 +100,39 @@ data.Combos.forEach(Combos => {
         )} else{ if(Combos.stock === "false"){
             document.getElementById('Combos').insertAdjacentHTML('beforeend',
             `<span class="product">${Combos.nombre} $${Combos.precio}</span>
+            <span class="description">SIN STOCK!</span>`
+)}}}
+        
+});
+
+
+//Frios section
+
+data.Frios.forEach(Frios => {
+    if(Frios.stock === "true"){ if(Frios.img != "") {
+    document.getElementById('Frios').insertAdjacentHTML('beforeend',
+    `
+     
+    <picture>
+        <img class="img-box" src="${Frios.img}" alt="Frios-pic">
+    </picture>
+    <span class="product">${Frios.nombre} $${Frios.precio}</span>
+    <span class="description">${Frios.descripcion}</span>
+    `
+    )} else  {document.getElementById('Frios').insertAdjacentHTML('beforeend',
+        `<span class="product">${Frios.nombre} $${Frios.precio}</span>
+        <span class="description">${Frios.descripcion}</span>`
+)}} else { if(Frios.img !=""){
+        document.getElementById('Combos').insertAdjacentHTML('beforeend',
+        `
+        <picture>
+            <img class="img-box" src="${Frios.img}" alt="Frios-pic">
+        </picture>
+        <span class="product">${Frios.nombre} $${Frios.precio}</span>
+        `
+        )} else{ if(Frios.stock === "false"){
+            document.getElementById('Frios').insertAdjacentHTML('beforeend',
+            `<span class="product">${Frios.nombre} $${Frios.precio}</span>
             <span class="description">SIN STOCK!</span>`
 )}}}
         
