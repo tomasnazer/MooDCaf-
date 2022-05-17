@@ -1,6 +1,7 @@
 {
-    "cafe": [
+    "Product": [
         {
+            "Titulo":"CAFETERIA",
             "nombre": "Café Doble",
             "precio": "250",
             "descripcion": "Doble medida de espresso",
@@ -8,6 +9,7 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Café Americano",
             "precio": "220",
             "descripcion": "Base de espresso y agua",
@@ -15,6 +17,7 @@
             "stock": "false"
         },
         {
+            "Titulo":"",
             "nombre":"Cafe espresso",
             "precio": "200",
             "descripcion": "Medida de cafe de 60ml",
@@ -22,17 +25,15 @@
             "stock": "false"
         },
         {
+            "Titulo":"",
             "nombre":"Macciato",
             "precio": "",
             "descripcion": "Café con un poco de espuma",
             "img": "",
             "stock": "true"
-        }
-        
-    ],
-
-    "Capuccinos": [
+        },
         {
+            "Titulo":"CAPUCCINOS Y LATTES",
             "nombre": "Capuccino Clásico",
             "precio": "300",
             "descripcion": "Doble medida de espresso",
@@ -40,6 +41,7 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Capuccino Italiano",
             "precio": "300",
             "descripcion": "Doble medida de espresso",
@@ -47,6 +49,7 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Capuccino de Dulce de leche",
             "precio": "300",
             "descripcion": "Doble medida de espresso",
@@ -54,6 +57,7 @@
             "stock": "false"
         },
         {
+            "Titulo":"",
             "nombre": "Capuccino de leche condensada",
             "precio": "300",
             "descripcion": "Doble medida de espresso",
@@ -61,16 +65,15 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Nutelatte",
             "precio": "350",
             "descripcion": "Café con leche con porcion de nutella",
             "img": "",
             "stock": "true"
-        }
-    ],
-
-    "Combos": [
+        },
         {
+            "Titulo":"COMBOS",
             "nombre": "MooD I",
             "precio": "300",
             "descripcion": "Café con leche + 2 medialunas",
@@ -78,6 +81,7 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "MooD II",
             "precio": "300",
             "descripcion": "Café con leche + 2 tostadas con untables",
@@ -85,6 +89,7 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Mood III",
             "precio": "300",
             "descripcion": "Café con leche + Tostado de Jamon y Queso",
@@ -92,6 +97,7 @@
             "stock": "false"
         },
         {
+            "Titulo":"",
             "nombre": "MooD IV",
             "precio": "300",
             "descripcion": "Café con leche + Porción de Chipá",
@@ -99,16 +105,15 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Desayuno Americano",
             "precio": "350",
             "descripcion": "Café con leche + revuelto de huevo y bacon",
             "img": "",
             "stock": "true"
-        }
-    ],
-
-    "Frios":[
+        },
         {
+            "Titulo":"FRIOS",
             "nombre": "Ice Lattes",
             "precio": "350",
             "descripcion": "Bebida fria con hielo, base de espresso, leche y caramelo",
@@ -116,6 +121,7 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Moccacino Frío",
             "precio": "350",
             "descripcion": "Espresso mezclado salsa de chocolate, cacao en polvo y espuma de leche",
@@ -123,6 +129,7 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Afogatto",
             "precio": "500",
             "descripcion": "Bebida dulce con base de espresso sobre 2 bochas de crema americana",
@@ -130,6 +137,7 @@
             "stock": "false"
         },
         {
+            "Titulo":"",
             "nombre": "Ice Americano",
             "precio": "350",
             "descripcion": "Base de hielo y espresso sobre un colchón de agua filtrada",
@@ -137,13 +145,17 @@
             "stock": "true"
         },
         {
+            "Titulo":"",
             "nombre": "Chocolatada",
             "precio": "300",
             "descripcion": "",
             "img": "",
             "stock": "true"
         }
+        
     ],
+
+ 
 
     "bebidas": [
         {
