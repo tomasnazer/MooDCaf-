@@ -112,31 +112,6 @@ h1 {
     
 }
 
-.comboimg {
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    box-shadow: rgba(17,12,46,0.15) 0px 48px 
-    100px 0px;
-    width: 200px;
-}
-
-.productC {
-    font-weight: bold;
-    font-size: 2rem;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 5px;
-}
-
-.descriptionC {
-    text-align: center;
-    margin-left: 9px;
-    margin-right: 9px;
-    color: black;
-    font-weight: bold;
-    margin-bottom: 9px;
-    
-}
 
 .footer-page {
     display: inline-block;
@@ -153,12 +128,7 @@ h1 {
     margin-top: 5px;
 }
 
-.ig img{
-    width: 45px;
-    height: 45px;
-}
-
-.fb img {
+.ig img, .fb img{
     width: 45px;
     height: 45px;
 }
