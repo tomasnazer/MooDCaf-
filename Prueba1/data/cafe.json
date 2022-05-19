@@ -73,46 +73,6 @@
             "stock": "true"
         },
         {
-            "Titulo":"COMBOS",
-            "nombre": "MooD I",
-            "precio": "300",
-            "descripcion": "Café con leche + 2 medialunas",
-            "img": "../images/moodI.jpg",
-            "stock": "true"
-        },
-        {
-            "Titulo":"",
-            "nombre": "MooD II",
-            "precio": "300",
-            "descripcion": "Café con leche + 2 tostadas con untables",
-            "img": "",
-            "stock": "true"
-        },
-        {
-            "Titulo":"",
-            "nombre": "Mood III",
-            "precio": "300",
-            "descripcion": "Café con leche + Tostado de Jamon y Queso",
-            "img": "../images/moodiii.jpg",
-            "stock": "false"
-        },
-        {
-            "Titulo":"",
-            "nombre": "MooD IV",
-            "precio": "300",
-            "descripcion": "Café con leche + Porción de Chipá",
-            "img": "",
-            "stock": "true"
-        },
-        {
-            "Titulo":"",
-            "nombre": "Desayuno Americano",
-            "precio": "350",
-            "descripcion": "Café con leche + revuelto de huevo y bacon",
-            "img": "",
-            "stock": "true"
-        },
-        {
             "Titulo":"FRIOS",
             "nombre": "Ice Lattes",
             "precio": "350",
@@ -149,6 +109,126 @@
             "nombre": "Chocolatada",
             "precio": "300",
             "descripcion": "",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"INFUSIONES",
+            "nombre": "Té con leche o limón",
+            "precio": "150",
+            "descripcion": "",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Té con hierbas",
+            "precio": "150",
+            "descripcion": "",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Mate cocido",
+            "precio": "200",
+            "descripcion": "",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Mate cocido con leche",
+            "precio": "220",
+            "descripcion": "",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"COMBOS",
+            "nombre": "MooD I",
+            "precio": "300",
+            "descripcion": "Café con leche + 2 medialunas",
+            "img": "../images/moodI.jpg",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "MooD II",
+            "precio": "300",
+            "descripcion": "Café con leche + 2 tostadas con untables",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Mood III",
+            "precio": "300",
+            "descripcion": "Café con leche + Tostado de Jamon y Queso",
+            "img": "../images/moodiii.jpg",
+            "stock": "false"
+        },
+        {
+            "Titulo":"",
+            "nombre": "MooD IV",
+            "precio": "300",
+            "descripcion": "Café con leche + Porción de Chipá",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Balcarce I",
+            "precio": "300",
+            "descripcion": "Jarrita con producto balcarce(Alfajor/Galletita/Conito",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Balcarce II",
+            "precio": "300",
+            "descripcion": "Jarrita con Porción de Torta Balcarce",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Natural",
+            "precio": "700",
+            "descripcion": "Café con leche o té, yogur con frutas y granola, copa de jugo",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Desayuno Americano",
+            "precio": "700",
+            "descripcion": "Café con leche + revuelto de huevo y bacon",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Saludable",
+            "precio": "700",
+            "descripcion": "Bowl de granola con tostadas acompañadas de miel y frutas de estación, mini jugo de naranja",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Clásico",
+            "precio": "1100",
+            "descripcion": "2 café con leche, 2 medialunas, tostadas con queso o manteca y dulce de leche, 6 chipa y 2 mini jugos de naranja",
+            "img": "",
+            "stock": "true"
+        },
+        {
+            "Titulo":"",
+            "nombre": "Completo",
+            "precio": "1400",
+            "descripcion": "2 café con leche, 2 medialunas,2 jugos chicos,2 mini tostados , chipa y torta",
             "img": "",
             "stock": "true"
         }
