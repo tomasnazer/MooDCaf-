@@ -8,10 +8,6 @@ html{
     background-color: rgb(199, 191, 172);
 }
 
-.navcontainer {
-    display: flex;
-    justify-content: space-between;
-}
 .nav {
     background-color: rgb(155, 117, 60);
     width: 100%;
@@ -40,11 +36,35 @@ ul {
     margin-left: 6px;
 }
 
-.menu-icon {
+#menu-icon {
     text-decoration: none;
     color: white;
  
 } 
+.submenu{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(155, 117, 60);
+    margin-top: -100%;
+    margin-bottom: 90px;
+    transition: all .5s;
+}
+
+.show{
+    margin-top: 0%;
+    
+}
+
+.menu_link{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
 
 .box {
     margin-top: 0px;
