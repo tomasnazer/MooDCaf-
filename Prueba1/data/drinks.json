@@ -1,0 +1,23 @@
+{
+    "bebidas": [
+        {
+            "nombre": "Gin Tonic",
+            "precio": "400",
+            "descripcion": "Medida de gin Heraclito y tonica",
+            "img": "/Prueba1/images/Café con Leche.png"
+        },
+        {
+            "nombre": "Negroni",
+            "precio": "400",
+            "descripcion": "Gin, Campari, Vermouth Rosso y rodaja de naranja",
+            "img": "/Prueba1/images/Café con Leche.png"
+
+        },
+        {
+            "nombre":"Dry Martini",
+            "precio": "400",
+            "descripcion": "Gin, vermouth seco, aceituna",
+            "img": "/Prueba1/images/Café con Leche.png"
+        }
+    ]
+}
