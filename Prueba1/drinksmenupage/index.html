@@ -4,35 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Cafe</title>
+    <title>MooD Contacto</title>
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
     <nav class="navcontainer">
         <ul class="nav">
-            <li><a href="/Prueba1/index.html" class="logo-company">
-                <picture >
-                    <img src="../images/logo.png" alt="logo" class="logo-c">
-                </picture>
-                </a>
-            </li>
             <li><a href="" id="menu-icon"><span class="material-icons-outlined">
                 reorder</span></a>
             </li>
         </ul>
-        <ul id="smenu" class="submenu">
-            <li><a href="/Prueba1/contact/index.html" class="menu_link">Contacto</a></li>
-            <li><a href="/Prueba1/coffemenupage/index.html" class="menu_link">Menú Cafetería</a></li>
+        <ul id="smenu" class="submenu" >
+            <li><a href="index.html" class="menu_link">Contacto</a></li>
+            <li><a href="../coffemenupage/index.html" class="menu_link">Menú Cafetería</a></li>
             <li><a href="" class="menu_link">Menú Comida</a></li>
             <li><a href="" class="menu_link">Menú Bebidas</a></li>
         </ul>
     </nav>
     <section>
+        <picture class="logo-container">
+            <img src="../images/logobiig.png" alt="mood-logo">
+        </picture>
         
-        <div class="section-box" id="product"> 
-        </div>
     </section>
     <footer class="footer-page">
         <div class="icon-container">
@@ -57,6 +53,6 @@
             </div>
         </div> 
     </footer>
-    <script type="module" src="/Prueba1/foodmenupage/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
