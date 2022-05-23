@@ -1,23 +1,125 @@
 {
     "bebidas": [
         {
+            "Titulo": "Sin Alcohol",
+            "nombre": "Pepsi",
+            "precio": "250",
+            "descripcion": "",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "",
+            "nombre": "SevenUp",
+            "precio": "250",
+            "descripcion": "",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "",
+            "nombre":"Mirinda",
+            "precio": "250",
+            "descripcion": "",
+            "img": "",
+            "stock":"false"
+        },
+        {
+            "Titulo": "",
+            "nombre":"Paso de los toros",
+            "precio": "250",
+            "descripcion": "",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "",
+            "nombre":"Tónica",
+            "precio": "250",
+            "descripcion": "",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "",
+            "nombre":"Awafruit",
+            "precio": "250",
+            "descripcion": "",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "",
+            "nombre":"Limonada",
+            "precio": "300",
+            "descripcion": "",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "Tragos",
             "nombre": "Gin Tonic",
             "precio": "400",
             "descripcion": "Medida de gin Heraclito y tonica",
-            "img": "/Prueba1/images/Café con Leche.png"
+            "img": "",
+            "stock":"true"
         },
         {
+            "Titulo": "",
             "nombre": "Negroni",
             "precio": "400",
             "descripcion": "Gin, Campari, Vermouth Rosso y rodaja de naranja",
-            "img": "/Prueba1/images/Café con Leche.png"
-
+            "img": "",
+            "stock":"true"
         },
         {
+            "Titulo": "",
             "nombre":"Dry Martini",
             "precio": "400",
             "descripcion": "Gin, vermouth seco, aceituna",
-            "img": "/Prueba1/images/Café con Leche.png"
+            "img": "",
+            "stock":"false"
+        },
+        {
+            "Titulo": "",
+            "nombre":"Capirinha",
+            "precio": "400",
+            "descripcion": "Cashaça, limón y azucar",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "Vinos",
+            "nombre": "Cordero con piel de Lobo",
+            "precio": "1100",
+            "descripcion": "Malbec",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "",
+            "nombre": "Trumpeter",
+            "precio": "900",
+            "descripcion": "Malbec",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "",
+            "nombre":"Santa Julia",
+            "precio": "900",
+            "descripcion": "Chardonnay",
+            "img": "",
+            "stock":"true"
+        },
+        {
+            "Titulo": "",
+            "nombre":"Ruttini",
+            "precio": "1300",
+            "descripcion": "",
+            "img": "",
+            "stock":"false"
         }
+
     ]
 }
